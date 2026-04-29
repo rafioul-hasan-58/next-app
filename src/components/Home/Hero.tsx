@@ -3,7 +3,7 @@ import Image from "next/image"
 import logoImage from "../../assets/horeimg.webp"
 const Hero = () => {
     return (
-        <div className="flex justify-between mt-10 gap-5">
+        <div className="flex flex-col-reverse justify-between mt-10 gap-5">
             <section className="w-1/2 space-y-4">
                 <h1 className="text-blue-950 font-bold text-3xl lg:text-4xl xl:text-5xl leading-14 mt-4">An intelligence layer that reveals the skills behind your experience-and the opportunities they unlock.</h1>
                 <p className="text-gray-800 font-semibold">Designed for job seekers, career switchers, side hustlers, new graduates and freelancers</p>
