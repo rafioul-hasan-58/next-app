@@ -1,8 +1,14 @@
+import Hero from "@/components/Home/Hero";
+import Navbar from "@/components/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <div className="">
-      <h1>Hellow World!</h1>
+    <div className="bg-white min-h-screen">
+      <Navbar />
+      <main className="max-w-7xl mx-auto">
+        {/* your page content here */}
+        <Hero />
+      </main>
     </div>
   );
 }
